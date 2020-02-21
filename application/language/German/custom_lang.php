@@ -13,5 +13,7 @@
  */
 
 $lang = array(
-
+  'default_terms'                                => 'Standard-Hinweise',
+  'invoice_terms'                                => 'Hinweise',
+  'terms'                                        => 'Hinweise',
 );
