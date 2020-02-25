@@ -30,7 +30,7 @@ class Ajax extends Admin_Controller
         $permissiveSearchClients = $this->input->get('permissive_search_clients');
 
         if (empty($query)) {
-            echo json_encode($response);
+            $this->get_latest();
             exit;
         }
 
